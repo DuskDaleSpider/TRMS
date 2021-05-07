@@ -1,0 +1,4 @@
+#Cassandra Certs and Keystore
+*.jks
+*.der
+*.crt
