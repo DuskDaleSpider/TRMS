@@ -15,7 +15,7 @@ Employees can submit a reimbursemnt request and that request will be passed alon
 ## Getting Started
   1. `git clone https://github.com/DuskDaleSpider/TRMS.git`
   2. Create a truststore for keyspaces [Docs](https://docs.aws.amazon.com/keyspaces/latest/devguide/using_java_driver.html#using_java_driver.BeforeYouBegin)
-  3. Creat the keyspace and tables using the cql found in src/main/resources/trms_table_creation.cql
+  3. Create the keyspace and tables in AWS Keyspaces using the cql found in src/main/resources/trms_table_creation.cql
   4. run `mvn package` within the repo directory
   5. Set environment variables
     * CASS_USER - Username for aws keyspaces-specific credentials
