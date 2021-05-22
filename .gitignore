@@ -5,3 +5,6 @@
 
 target/
 logs/
+.factorypath
+.vscode/
+.settings/
