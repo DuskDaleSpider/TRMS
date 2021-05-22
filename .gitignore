@@ -2,3 +2,6 @@
 *.jks
 *.der
 *.crt
+
+target/
+logs/
