@@ -23,5 +23,13 @@ Employees can submit a reimbursemnt request and that request will be passed alon
     CASS_PASS - Password for aws keyspaces-specific credentials
     JWT_SECRET - Secret used for signing JWT
     TRUSTSTORE_PASS - Password used for the created truststore
-
-  7. run `java -jar target/TRMS-0.0.1-SNAPSHOT.jar`
+  7. copy `trms.jar` and your truststore to the same dir
+    * Example: ```
+          $ ls -al
+          total 35140
+          drwxr-xr-x 1 Dakota 197121        0 May 21 21:53 ./
+          drwxr-xr-x 1 Dakota 197121        0 May 21 21:52 ../
+          -rw-r--r-- 1 Dakota 197121     1109 May 21 21:52 cassandra-truststore.jks
+          -rw-r--r-- 1 Dakota 197121 35973790 May 21 21:53 trms.jar
+        ```
+  7. run `java -jar trms.jar`
